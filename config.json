@@ -1,8 +1,8 @@
 {
-    # Next three lines are making this: /scr/k41san/genomes/GRCh38.p2/GRCh38.p2.genome_chroms_only_modifiedNames.fa
+    # Next three lines are making this: /scr/k41san/genomes/GRCh38/GRCh38.ver2.fa
     "REFERENCE": "/scr/k41san/genomes/", #Path to your reference folder
-    "GENOME": "GRCh38.p2", #Folder name which your genome is there
-    "NAME": ".genome_chroms_only_modifiedNames", #Extension of your GenomeName (Look at the above example)
+    "GENOME": "GRCh38", #Folder name which your genome is there
+    "NAME": ".ver2", #Extension of your GenomeName (Look at the above example)
     "OTHERSCRIPT": "scripts", # Where can I find other scripts
     "POPULATION": { # All of your population
         "A": "PopA",
