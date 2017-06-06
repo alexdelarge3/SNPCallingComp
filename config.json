@@ -1,0 +1,23 @@
+{
+    # Next three lines are making this: /scr/k41san/genomes/GRCh38.p2/GRCh38.p2.genome_chroms_only_modifiedNames.fa
+    "REFERENCE": "/scr/k41san/genomes/", #Path to your reference folder
+    "GENOME": "GRCh38.p2", #Folder name which your genome is there
+    "NAME": ".genome_chroms_only_modifiedNames", #Extension of your GenomeName (Look at the above example)
+    "OTHERSCRIPT": "scripts", # Where can I find other scripts
+    "POPULATION": { # All of your population
+        "A": "PopA",
+        "B": "PopB"
+    },
+    "INDIVIDUALS":{ 
+        "A": 
+           ["PopA_Ind1","PopA_Ind1","PopA_Ind2","PopA_Ind2","PopA_Ind3","PopA_Ind3"],
+        "B": 
+           ["PopB_Ind1","PopB_Ind1","PopB_Ind2","PopB_Ind2","PopB_Ind3","PopB_Ind3"]
+    },
+    "MAPPER": "/usr/local/bin/bwa-0.7.12/bwa" ,
+    "SAMTOOLS": "/usr/local/bin/samtools-1.3.1/samtools" ,
+    "PICARD": "/usr/local/bin/picard-1.140/dist/picard.jar",
+    "JAVA_1_8": "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el7_3.x86_64/jre/bin/java",
+    "WHERE" : "/homes/biertruck/amin/Project/SNPCallingComp/Data" 
+    # Other tools also must be configured here
+}
